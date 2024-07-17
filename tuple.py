@@ -55,3 +55,7 @@ b = ['ram', 'shyam', 'ram', 'rita', 'rita']
 
 print(len(set(b)))
 
+# tuple=()
+# dict={}
+# set = {}
+list = []

@@ -61,3 +61,8 @@ set7 = set3.difference(set4)
 
 # method will keep only the elements that are NOT present in both sets
 set8 = set3.symmetric_difference(set4)
+
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+# Dictionary is a collection which is ordered** and changeable. No duplicate members.
