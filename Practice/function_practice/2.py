@@ -54,13 +54,6 @@ def if_digit_present(word):
 
 if_digit_present(userInput2)
 
-def if_digit_present(word):
-    digit = '1234567890'
-    for char in word:
-        if char == digit:
-            print('yes')
-            
-if_digit_present(userInput2)
 
 # 8 write a function that takes string as an argument and check if palindrome or not disregarding case sensitivity 
 
@@ -214,7 +207,8 @@ def count_vowel (word):
          print(f'Total no. of vowels are {count}')
     else:
         print('No vowels')
-
+    
+    return count
 count_vowel(userInput2)
 
 # 18 write a function that takes a string as a argument and returns the total number of consonant present in string
